@@ -1,0 +1,22 @@
+body {
+    background-image: url('img/bg1.jpg'); /* Ganti dengan URL gambar latar belakang Anda */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card {
+    background: rgba(255, 255, 255, 0.8); /* Transparansi 80% */
+    border: none;
+    border-radius: 15px;
+}
+footer {
+    background-color: rgba(0, 123, 255, 0.8); /* Warna latar belakang footer */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
